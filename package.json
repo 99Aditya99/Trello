@@ -1,0 +1,22 @@
+{
+  "name": "trello",
+  "version": "1.0.0",
+  "description": "its a practice project of flexbox",
+  "main": "index.js",
+  "scripts": {
+    "compile_sass": "node-sass ./sass/main.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/99Aditya99/Trello.git"
+  },
+  "author": "Aditya Saha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/99Aditya99/Trello/issues"
+  },
+  "homepage": "https://github.com/99Aditya99/Trello#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

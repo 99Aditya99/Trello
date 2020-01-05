@@ -1,0 +1,100 @@
+// logo ------------------------------------------------------------------
+.logo{
+    margin-left: 2rem;
+}
+
+// search box ------------------------------------------------------------------
+.search{
+    // background-color: yellow;
+    display: flex;
+    // border-bottom: 2px solid orangered;
+    justify-content: center;
+    flex:0 0 40%;
+
+    &__textbox{
+        font-family: inherit;
+        font-size: 14px;
+        // background-color: var();
+        color:inherit;
+        border: none;
+        border-radius: 2rem;
+        width: 90%;
+        transition: all .2s;
+        margin-right:-3rem;
+        padding: .7rem 2rem;
+
+        &:focus{
+            outline: none;
+            width: 100%;
+        }
+        &::-webkit-input-placeholder{
+            color: var(--color-grey-light-2);
+        }
+    
+    }
+    &__button{
+        width: 3rem;
+        height:3rem;
+        border: none;
+        border-radius:1rem ;
+        &:focus{
+            outline: none;
+        }
+        &:active{
+            transform: translateY(2px);
+        }
+    }
+    &__icon{
+        width: 2rem;
+        height:2rem;
+    }
+}
+
+// user_navigation ------------------------------------------------------------------
+.user_nav{
+    // background-color: green;
+    display: flex;
+    align-self: stream;
+    flex: 0 0 20%;
+    justify-content:space-between;
+    & > *{
+        padding: 0 2rem;
+        cursor: pointer;
+        height: 100%;
+        display:flex;
+        align-items: center;
+    }
+    & > *:hover{
+        background-color: var( --color-grey-dark-1);
+    }
+    
+    &__icon_box{
+        
+    }
+    &__icon{
+        width: 2rem;
+        height:2rem;
+        fill:darkgrey;
+    }
+    &__icon_notification{
+        font-size: .8rem   ;
+        height: 0.75rem;
+        width: .75rem;
+        border-radius: 100px;
+        background-color:red;
+        color: black;
+        text-align: center;
+    
+    }
+    &__user_box{
+
+    }
+    &__user_image{
+        width: 2rem;
+        height:2rem;
+        margin
+    }
+    &__user_name{
+
+    }
+}
